@@ -8,7 +8,7 @@ export const Ground = () => {
         position: [0, -0.5, 0]
     }));
 
-    const [addCube] = useStore((state) => [state.addCube]);
+    const [addCube] = useStore((state) => [state?.addCube]);
 
     groundTexture.repeat.set(100, 100);
 
